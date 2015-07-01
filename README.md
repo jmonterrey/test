@@ -5,8 +5,10 @@ version 0.12.0.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for pssssssddddd.
+Run `grunt` for building and `grunt serve` for ppp.
 
 ## Testing
 
 Running `grunt test` will run the unit tests with karma....
+
+test testtt te
