@@ -38,6 +38,10 @@ angular
         templateUrl:'views/jade/miprueba2.html',
         controller:'SumaCtrl'
       })
+      .when('/calculoIGV',{
+        templateUrl:'views/formularioIGV.html',
+        controller:'IGVCtrl'
+      })
 
 
       .otherwise({

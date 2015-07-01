@@ -1,0 +1,31 @@
+div(ng-repeat="item in objetos")
+	div!= "{{item.titulo}}"
+	input(type="text", ng-model="item.costo")
+	input(type="text", ng-model="item.precio")
+
+
+
+$scope.objetos = [{
+	titulo: '',
+	costo: 10,
+	precio: 20
+},{
+	titulo: '',
+	costo: 10,
+	precio: 20
+},{
+	titulo: '',
+	costo: 10,
+	precio: 20
+}];
+
+
+$scope.add = function(titulo, costo, precio){
+	var objeto = {
+		titulo: titulo,
+		costo: costo,
+		precio: precio
+	};
+
+	$scope.objetos.push(objeto);
+}

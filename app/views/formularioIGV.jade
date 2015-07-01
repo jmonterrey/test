@@ -1,0 +1,17 @@
+form.form-horizontal
+		div.form-group
+			label.control-sm-2 Producto Nº1:
+			input.control-sm-2(type='number' ng-model='p1')
+			div.column-sm-2
+			label.contro-sm-2 Producto Nº2:
+			input.control-sm-2(type='number' ng-model='p2')
+			div.column-sm-2
+			label.control-sm-2 Producto Nº3:
+			input.control-sm-2(type='number' ng-model='p3')
+
+		div.form-group
+			label.control-sm-2 Monto Total
+			input.control-sm-2(disabled ng-model='monto')
+			label.control-sm-2 IGV
+			input.control-sm-2(disabled ng-model='igv')
+		button(ng-click="ProductsAdition();") Sumar 

@@ -1,0 +1,20 @@
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-sm-2">Producto Nº1:</label>
+    <input type="number" ng-model="p1" class="control-sm-2"/>
+    <div class="column-sm-2"></div>
+    <label class="contro-sm-2">Producto Nº2:</label>
+    <input type="number" ng-model="p2" class="control-sm-2"/>
+    <div class="column-sm-2"></div>
+    <label class="control-sm-2">Producto Nº3:</label>
+    <input type="number" ng-model="p3" class="control-sm-2"/>
+  </div>
+  <div class="form-group">
+    <label class="control-sm-2">Monto Total</label>
+    <input disabled="disabled" ng-model="monto" class="control-sm-2"/>
+    <label class="control-sm-2">IGV</label>
+    <input disabled="disabled" ng-model="igv" class="control-sm-2"/>
+  </div>
+  <button ng-click="ProductsAdition();">Sumar </button>
+</form>
