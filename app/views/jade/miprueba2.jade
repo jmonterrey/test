@@ -1,0 +1,15 @@
+div
+	p Bienvenido a mi Formulario de Prueba
+	p En este Formulario desarrollaremos la operación de SUMA
+	div(ng-repeat="item in things")!= "{{item}}"
+	div.capaSuma 
+		form
+			div.form-group
+				div.col-sm-12
+					input#N1.form-control(type="number", ng-model="persona.edadmin")
+			div.form-group
+				div.col-sm-12
+					input#N2.form-control(type="number", ng-model="persona.edadmax")
+			div.form-group
+				label Repuesta: {{ persona.edadmin + persona.edadmax }}
+			button(ng-click="add();") Sumar 

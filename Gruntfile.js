@@ -26,10 +26,6 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
     // Jade Templates
-
-
-
-
     jade: {
         compile: {
             options: {
@@ -44,7 +40,7 @@ module.exports = function (grunt) {
               ext: ".html"
             } ]
         }
-    },
+    },    
 
 
 
@@ -59,7 +55,7 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       jade:{
-        files: ['app/views/*jade'],
+        files: ['app/views/**/*.jade'],
         tasks: ['jade:compile']
       },
       js: {

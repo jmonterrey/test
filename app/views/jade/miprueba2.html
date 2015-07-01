@@ -1,0 +1,24 @@
+
+<div>
+  <p>Bienvenido a mi Formulario de Prueba</p>
+  <p>En este Formulario desarrollaremos la operación de SUMA</p>
+  <div ng-repeat="item in things">{{item}}</div>
+  <div class="capaSuma"> 
+    <form>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input id="N1" type="number" ng-model="persona.edadmin" class="form-control"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input id="N2" type="number" ng-model="persona.edadmax" class="form-control"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Repuesta: {{ persona.edadmin + persona.edadmax }}</label>
+      </div>
+      <button ng-click="add();">Sumar </button>
+    </form>
+  </div>
+</div>
