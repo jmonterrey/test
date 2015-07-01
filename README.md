@@ -5,7 +5,7 @@ version 0.12.0.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for ioioioiffdsfds.
+Run `grunt` for building and `grunt serve` for uuuuuuuu.
 
 ## Testing
 
